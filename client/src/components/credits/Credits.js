@@ -14,7 +14,7 @@ const Credits = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
-  const API_URL = "https://vcall-2vlg.onrender.com/"
+  const API_URL = "https://vcall-2vlg.onrender.com"
 
   useEffect(() => {
     fetchCredits();
