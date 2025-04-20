@@ -83,7 +83,7 @@ const VideoChat = ({
   const [showChat, setShowChat] = useState(false);
   const [showParticipants, setShowParticipants] = useState(false);
   const navigate = useNavigate();
-  const API_URL = "https://johri-2ayw.onrender.com"
+  const API_URL = "https://vcall-2vlg.onrender.com/"
 
 
   useEffect(() => {

@@ -3,7 +3,7 @@ import axios from "axios"
 
 const AuthContext = createContext()
 
-const API_URL = "https://johri-2ayw.onrender.com"
+const API_URL = "https://vcall-2vlg.onrender.com/"
 
 const setupAxiosInterceptors = (token) => {
   if (token) {
